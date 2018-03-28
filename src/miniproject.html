@@ -276,7 +276,7 @@
                         <div class="col-lg-10">
                           <input type="text" class="form-control" id="user-email" placeholder="Please enter you Email Address">
                         </div>
-                      <span style="display: none;padding-left: 145px;" class="emaliTips">*Please input correct email</span>
+                      <span style="display: none;padding-left: 145px;" class="emailTips">*Please input correct email</span>
                   </div><!-- End form group -->
 
                   <div class="form-group">
@@ -349,10 +349,10 @@
             }
             
             if(!emailValidation(email)||email==""){
-               $(".emaliTips").css("display","block");
+               $(".emailTips").css("display","block");
                 return false;
             }else{
-               $(".emaliTips").css("display","none");
+               $(".emailTips").css("display","none");
             }
         
             if(!phoneValidation(phone)||phone==""){
